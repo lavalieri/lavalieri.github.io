@@ -30,7 +30,7 @@ if($_POST) {
    // Set Message
    $message .= "Email from: " . $name . "<br />";
 	$message .= "Email address: " . $email . "<br />";
-   $message .= "Menssagem: <br />";
+   $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> Este e-mail foi enviado do formulário de contato do seu site. <br />";
 
